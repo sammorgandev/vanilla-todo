@@ -1,12 +1,10 @@
+//initialize todo list array
 let todosArray = [];
 
 //query selectors
 const todoList = document.querySelector(".todo-list");
 const todoInput = document.querySelector(".todo-input");
 const todoButton = document.querySelector(".todo-button");
-const buttonDiv = document.querySelector(".btn-div");
-const newTodo = document.querySelector(".todo-item");
-const completedButton = document.querySelector(".complete-btn");
 
 //event listeners
 todoButton.addEventListener("click", addTodo);
