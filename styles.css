@@ -72,6 +72,7 @@ h2 {
 	align-items: center;
 	height: 100%;
 	gap: 0.5em;
+	width: 100%;
 }
 
 .complete-btn {
@@ -89,6 +90,10 @@ button {
 	font-size: 1em;
 	font-family: "Roboto", sans-serif;
 	cursor: pointer;
+}
+
+.strikethrough {
+	text-decoration: line-through;
 }
 
 .flex-col-left {
